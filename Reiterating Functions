@@ -1,0 +1,13 @@
+var double = function(x){
+	return 2 * x;
+};
+
+var myFavoriteNumber = 5;
+
+var doSomethingToSomeNumber = function (number, func){
+	return func(number);
+};
+
+doSomethingToSomeNumber(myFavoriteNumber, double);
+
+doSomethingToSomeNumber(10, double);
